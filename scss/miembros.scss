@@ -1,0 +1,25 @@
+$color_1: #0061FF;
+$color_2: #939393;
+
+.member-title {
+	&:hover {
+		color: $color_1;
+		cursor: pointer;
+		transition: 1.2s;
+	}
+}
+.member-text {
+	width: 40rem;
+	color: $color_2;
+}
+.section-main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-section {
+	width: 75rem;
+}
+.img-cir {
+	border-radius: 250px;
+}

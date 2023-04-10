@@ -1,0 +1,82 @@
+$color_1: white;
+$color_2: gray;
+$background-color_1: #d9d9d9;
+
+.caja-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+	margin-top: 150px;
+}
+.form-contact {
+	background: #262626;
+	width: 400px;
+	box-shadow: 7px 13px 37px rgba(0, 0, 0, .8);
+}
+section {
+	.propiedad-form-1 {
+		width: 100%;
+		background: #1b1b1b;
+		overflow: hidden;
+		color: $color_1;
+		span {
+			font-size: 100px;
+			display: block;
+			text-align: center;
+			padding: 2.5rem;
+		}
+	}
+}
+.contact {
+	padding: .8rem;
+	overflow: hidden;
+	color: $color_2;
+	label {
+		display: block;
+		width: 100%;
+		margin-bottom: 5px;
+		font-weight: 700;
+	}
+	input {
+		display: block;
+		width: 100%;
+		margin-bottom: 5px;
+		&:not([type='submit']) {
+			border: none;
+			border-bottom: 2px solid #161815;
+			margin-bottom: 10px;
+			font-size: 20px;
+			outline: none;
+			color: $color_2;
+			border-radius: 9px;
+			background-color: $background-color_1;
+			padding-left: 9px;
+		}
+	}
+	textarea {
+		display: block;
+		width: 100%;
+		margin-bottom: 5px;
+		border: none;
+		border-bottom: 2px solid #161815;
+		margin-bottom: 10px;
+		font-size: 20px;
+		outline: none;
+		color: $color_2;
+		border-radius: 9px;
+		background-color: $background-color_1;
+		padding-left: 9px;
+		min-height: 100px;
+	}
+}
+input[type='submit'] {
+	padding: 10px;
+	background: #0b49a7;
+	border: none;
+	color: $color_1;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 12px;
+}

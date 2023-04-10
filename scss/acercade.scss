@@ -1,0 +1,29 @@
+$color_1: #0061FF;
+$color_2: #ffffff;
+$background-color_1: #222222;
+
+.main-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main-ctn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.main-title {
+	margin: 100px 0 50px 0;
+	font-size: 5rem;
+	color: $color_1;
+}
+.main-text {
+	width: 70rem;
+	color: $color_2;
+	line-height: 1.9;
+	background-color: $background-color_1;
+	border-radius: 30px;
+	border: 2px solid #0061FF;
+	padding: 20px;
+}

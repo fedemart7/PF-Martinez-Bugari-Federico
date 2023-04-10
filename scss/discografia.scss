@@ -1,0 +1,12 @@
+$color_1: #0061FF;
+
+.album-title {
+	&:hover {
+		color: $color_1;
+		transition: 1.2s;
+		cursor: pointer;
+	}
+}
+.m-60 {
+	margin-bottom: 60px;
+}
